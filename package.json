@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "test": "jest -c ./projects/test-app/jest.config.js",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
